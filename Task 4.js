@@ -1,4 +1,4 @@
-// Task 5.3.4
+// Task 5.4
 
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);

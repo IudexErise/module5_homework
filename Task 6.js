@@ -1,13 +1,14 @@
-// Task 5.3.6
+// Task 5.6
 
-const arr = [1, 2, 3, 4, 5];
-let a = false;
+const arr = [3, 1, 1, 3, 3];
+let a = true;
 
 arr.forEach( function (item, index, array){
-for (let i = index + 1; i < arr.length ; i++){
-	  if(item === arr[i]) a = true
+for (let i = 0; i < arr.length ; i++){
+  for (let j = i+1; j < arr.length; j++) {
+	  if(arr[i] !== arr[j]) a = false
 	  }
-})
+}})
 console.log(a)
 
 

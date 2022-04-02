@@ -1,6 +1,6 @@
-// Task 5.3.2
+// Task 5.2
 
-let a = prompt('Enter something');
+let a = true;
 switch (typeof a) {
     case 'number':
     console.log('It is number');

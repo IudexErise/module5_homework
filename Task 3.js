@@ -1,4 +1,4 @@
-// Task 5.3.3
+// Task 5.3
 
 let word = 'Hello';
 let drow;

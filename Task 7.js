@@ -1,4 +1,4 @@
-// Task 5.3.7
+// Task 5.7
 
 const arr = [0, 3, 8, 9, 12, 14, 5, 20, 0, 'dsaad', null]
 let oddCounter = 0

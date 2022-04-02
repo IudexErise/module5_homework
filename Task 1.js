@@ -1,4 +1,4 @@
-// Task 5.3.1
+// Task 5.1
 
 let a = prompt('Enter number');
 if (typeof(+a) === 'number' && !isNaN(+a)) {
